@@ -97,7 +97,7 @@ if __name__ == '__main__':
             if chances != len(generated_word):
                 print(hangman_dict[chances])
 
-            print('\nHint:\n')
+            print(f'\nHint: {len(generated_word)} letter word.\n')
             for key in hints.keys():
                 print('\t'+key+': '+hints[key][0])
 
